@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f3f4ff 0%, #d3d7ff 40%, #bfc8ff 100%);
+    overflow-x: hidden;
+    position: relative;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    z-index: 5;
+}
+
+.character {
+    position: absolute;
+    width: 300px;
+    left: 20%;         
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 6;        
+}
+
+.star {
+    position: absolute;
+    width: 140px;
+    left: 62%;         
+    top: 26%;
+    transform: translateY(-50%);
+    z-index: 6;        
+}
+
+.login-box {
+    width: 520px;
+    padding: 60px 40px;
+
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+    text-align: center;
+
+    position: absolute;
+    left: 50%;        
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.login-box h1 {
+    font-size: 32px;
+    color: #a3a7ff;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+
+.login-box h2 {
+    font-size: 32px;
+    color: #a3a7ff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.login-box h3 {
+    font-size: 15px;
+    color: #a3a7ff;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #b2baff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(150, 160, 255, 0.3);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #B3BFFFB2, #FFBBE1B2);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+    box-shadow: 0 4px 15px rgba(150, 160, 255, 0.4);
+}
+
+button:hover {
+    background-color: #8e92ff;
+}
